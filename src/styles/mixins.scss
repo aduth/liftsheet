@@ -1,0 +1,5 @@
+@mixin at-desktop() {
+	@media (min-width: $page-width) {
+		@content;
+	}
+}

@@ -1,0 +1,24 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	padding: 0.8rem 1rem;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	background-color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	cursor: pointer;
+}
+
+.button--outline {
+	border-color: currentColor;
+	border-width: 2px;
+	text-shadow: none;
+}
+
+.button__icon {
+	position: relative;
+	margin-right: 1rem;
+}

@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: $page-width;
+	margin: 0 auto;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	font-size: 18px;
+	font-weight: 400;
+	color: $font-color-body;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	@include at-desktop() {
+		margin-top: 2rem;
+	}
+}
+
+a {
+	color: $color-primary;
+
+	&:hover {
+		color: darken($color-primary, 10);
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $font-color-heading;
+}
+
+h1 {
+	font-size: 1.8rem;
+}
+
+hr {
+	margin: 1.6rem auto;
+	height: 3px;
+	background-color: $color-base;
+	border: none;
+	width: 4rem;
+}

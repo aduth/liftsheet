@@ -1,0 +1,11 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.6rem;
+	margin-bottom: 2rem;
+	background: $color-primary;
+
+	@include at-desktop() {
+		border-radius: 6px;
+	}
+}

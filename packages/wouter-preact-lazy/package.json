@@ -1,0 +1,5 @@
+{
+	"name": "@liftsheet/wouter-preact-lazy",
+	"version": "1.0.0",
+	"main": "index.tsx"
+}
